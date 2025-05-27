@@ -1,0 +1,14 @@
+     50
+   /    \
+ 30     70
+ / \    / \
+20 40  60 80
+
+In this tree:
+
+The root node is 50.
+The left subtree of 50 contains nodes 30, 20, and 40.
+The right subtree of 50 contains nodes 70, 60, and 80.
+The key in the root node (50) is greater than all keys in its left subtree (20, 30, 40) and less than all keys in its right subtree (60, 70, 80).
+And this property is satisfied for all nodes, not just the root.
+This property allows for efficient searching, as you can disregard half of the remaining tree at each step, leading to an average time complexity of O(log n) for search operations.
